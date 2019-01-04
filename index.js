@@ -20,5 +20,8 @@ function sayHiToGrandma (string){
   var lowerCase = string.toLowerCase()=== string;
   var mixCase = (string.toUpperCase()!= string && string.toLowerCase != string);
   
+  if (upperCase){
+    return ()
+  }
   
 }
