@@ -20,10 +20,13 @@ function sayHiToGrandma (string){
   var lowerCase = string.toLowerCase()=== string;
   var mixCase = (string.toUpperCase()!= string && string.toLowerCase != string);
   
-  if (upperCase){
+  if (string = "I love you, Grandma."){
+    return "I love you, too";
+  }
+  else if (upperCase){
     return "YES INDEED!";
   }
-  if (lowerCase){
+  else if (lowerCase){
     return "I can\'t hear you!";
   }
   
